@@ -76,7 +76,7 @@ test.describe("Task 5: Perfect circle", async () => {
 
     // Draw circle from points
     drawCircle(page, points);
-    await page.waitForTimeout(10000);
+    await page.waitForTimeout(1000);
   });
 
   test("2. Get the best possible score among all teams - 3 points", async ({ page }) => {
@@ -94,7 +94,7 @@ test.describe("Task 5: Perfect circle", async () => {
 
     // Draw circle from points
     drawCircle(page, points);
-    await page.waitForTimeout(10000);
+    await page.waitForTimeout(1000);
   });
   test("3. Score exactly 66.6% - 4 points", async ({ page }) => {
     // Open the page and press the "Go" button
@@ -114,6 +114,6 @@ test.describe("Task 5: Perfect circle", async () => {
 
     // Draw circle from points
     drawCircle(page, points);
-    await page.waitForTimeout(10000);
+    await page.waitForTimeout(1000);
   });
 });
