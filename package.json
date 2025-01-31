@@ -1,0 +1,22 @@
+{
+  "name": "test-automation-hackathon-2025",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stautvis/test-automation-hackathon-2025-.git"
+  },
+  "keywords": [],
+  "author": "Tautvydas Steponavičius <t.steponavicius@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stautvis/test-automation-hackathon-2025-/issues"
+  },
+  "homepage": "https://github.com/Stautvis/test-automation-hackathon-2025-#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.12.0"
+  }
+}
